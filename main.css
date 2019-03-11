@@ -1,0 +1,48 @@
+h1, h2, h3 {
+	color: #315169;
+	text-align:center;
+}
+
+section > h3 {
+	color: #9993B9;
+	text-align:center;
+}
+
+img {
+	width: 80%;
+	height: 30%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+	padding-bottom: 15px;
+}
+
+nav {
+	font-size: 15px;
+}
+
+main {
+	background-color: #EEEEEE;
+	padding: 10px 30px 10px 30px;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	border: 40px solid #D6D6E0;
+}
+
+section {
+	width: 80%;
+	margin: auto;
+	font-size: 15px;
+	padding: 1px 20px;
+	background-color: white;
+}
+
+footer {
+	font-size: 15px;
+}
