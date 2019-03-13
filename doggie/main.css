@@ -31,6 +31,7 @@ nav .nav-button {
 
 body {
 	margin: 0px;
+	font-size: 14px;
 	font-family: 'Raleway', sans-serif;
 	background-image: url("img/rainbow-bg.jpg");
 }
@@ -57,16 +58,24 @@ main {
 	border-radius: 50%;
 	object-position: 10% 0;
 	object-fit: cover;
-  width: 260px;
-  height: 270px;
+  width: 280px;
+  height: 290px;
 }
 
-.section-container .section-content {
-	margin-left: 320px;
+.section-content {
+	margin-left: 360px;
 }
 
-.section-container .section-content h2 {
+.section-content h2 {
 	margin-top: 0px;
+}
+
+.section-content p:nth-of-type(1) {
+	font-style: italic;
+}
+
+.section-content p:nth-of-type(2) {
+	font-weight: bold;
 }
 
 button {
@@ -76,13 +85,14 @@ button {
 	font-size: 12px;
 	cursor: pointer;
 	border-radius: 6px;
-	padding: 8px 150px;
+	padding: 8px 125px;
 	text-align: center;
 	display: inline-block;
 	background-color: #2EC3EE;
 }
 
 ol {
+	margin-top: 25px;
 	padding-left: 14px;
 }
 
@@ -98,7 +108,12 @@ footer {
 	background-color: white;
 }
 
-footer > div > img{
+footer > div > a {
+	color: #2EC3EE;
+	text-decoration: none;
+}
+
+footer > div > img {
 	width: 40px;
 	height: 40px;
 }
